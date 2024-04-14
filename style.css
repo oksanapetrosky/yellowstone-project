@@ -1,0 +1,159 @@
+body {
+    background: linear-gradient(to left, #9DBC98, #F5EEE6, #CEDEBD, #9DBC98, #CEDEBD);
+}
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+
+}
+#container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.container {
+    display: flex;
+}
+h1 {
+    position: absolute;
+    top: 10px;
+    font-size: 40px;
+    font-family: 'Lora', serif;
+    background-position: center;
+    background: linear-gradient(to left, #65B741, #092635, #65B741);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+h2 {
+    font-size: 30px;
+    font-family: 'Lora', serif;
+    background-position: center;
+    color: #395144;
+}
+    
+.btn {
+    background-color: #617A55;
+    border: none;
+    color: #FBFADA;
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    padding: 10px;
+}
+.item {
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Lora', serif;
+    flex: 1;
+    margin: 5px;
+    position: relative;
+}
+h4 {
+    position: absolute;
+    left: 20px;   
+    color: white; 
+    font-family: 'Lora', serif;
+    font-size: 0;
+}
+
+.price {
+    position: absolute;
+    left: 20px;
+    top: 50px;
+    color: white;
+    font-size: 0;
+}
+
+.selected {
+    flex: 4;
+}
+.selected h4 {
+    font-size: 25px;
+    transition: all 2s ease-in;
+}
+
+.selected .price {
+    font-size: 20px;
+    font-family: 'Lora', serif;
+    transition: all 2s ease-in;
+}
+label {
+    font-family: 'Lora', serif;
+    font-size: 25px;
+}
+.text-input {
+    background-color: #EEE7DA;
+    border: none;
+  
+}
+.btn1 {
+    background-color: #617A55;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    width: 20%;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    color: #FBFADA;
+}
+
+.one {
+    background-image: url(springs.jpg);
+}
+.two {
+    background-image: url(photo-1592595281009-9fc540ba5e83.avif);
+}
+.three {
+    background-image: url(photo-1636689523952-8d94e3a82a94.avif);
+}
+.four {
+    background-image: url(photo-1629557134518-53d47c3f3e9b.avif);
+}
+.five {
+    background-image: url(photo-1636391224464-d377785913cf.avif);
+}
+.six {
+    background-image: url(hiking-trails.jpg);
+}
+.seven {
+    background-image: url(photo-1658779964988-652558d94651.avif);
+}
+.eight {
+    background-image: url(photo-1695071336108-0a2422269d71.avif);
+}
+.nine {
+    background-image: url(photo-1563421030-f2ea84357d4d.avif);
+}
+.ten {
+    background-image: url(premium_photo-1673264933061-f1ea43b13032.avif);
+}
+
+@media all and (max-width: 800px) {
+   .container {
+    flex-direction: column;
+    height: 100vh;
+   }
+   h1 {
+    left: 40px;
+    font-size: 20px;
+   }
+   h2, label {
+    font-size: 15px;
+   }
+   .selected h4 {
+    font-size: 15px;
+   }
+   .selected .price {
+    font-size: 10px;
+   }
+   .btn {
+    font-size: 10px;
+    padding: 2px;
+}
+  .btn1 {
+    font-size: 10px;
+    padding: 5px;
+}
+}
+
